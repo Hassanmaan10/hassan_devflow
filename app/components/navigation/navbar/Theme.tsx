@@ -9,9 +9,9 @@ import {
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu";
+} from "@/app/components/ui/dropdown-menu";
 
-import { Button } from "@/components/ui/button";
+import { Button } from "@/app/components/ui/button";
 
 const Theme = () => {
   const { setTheme } = useTheme();

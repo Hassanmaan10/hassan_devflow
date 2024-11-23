@@ -42,7 +42,7 @@ export default {
         xs: "420px",
       },
       fontFamily: {
-        inter: ["var(--font-inter"],
+        inter: ["var(--font-inter)"],
         "space-grotesk": ["var(--font-space-grotesk)"],
       },
       borderRadius: {

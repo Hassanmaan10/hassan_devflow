@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
+import MobileNavigatiom from "./MobileNavigatiom";
 import Theme from "./Theme";
 
 const Navbar = () => {
@@ -22,6 +23,8 @@ const Navbar = () => {
 
       <div className="flex-between gap-5">
         <Theme />
+
+        <MobileNavigatiom />
       </div>
     </nav>
   );
